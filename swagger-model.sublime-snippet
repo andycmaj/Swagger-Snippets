@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+"${1:type}":{
+  "id":"$1",
+  "properties":{
+    ${2:properties}
+  }
+}
+]]></content>
+  <tabTrigger>apiModel</tabTrigger>
+  <scope>source.json</scope>
+</snippet>

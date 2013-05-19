@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+{
+  "path":"/${1:apiPath}",
+  "description":"${2:apiDescription}",
+  "operations":[
+    ${3:operations}
+  ]
+}
+]]></content>
+  <tabTrigger>apiPath</tabTrigger>
+  <scope>source.json</scope>
+</snippet>

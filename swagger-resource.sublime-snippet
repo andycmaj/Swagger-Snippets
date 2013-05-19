@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+{
+  "apiVersion":"1",
+  "swaggerVersion":"1.1",
+  "basePath":"${1:baseUrl}",
+  "resourcePath":"/${2:resourceBasePath}",
+  "apis":[
+
+  ],
+  "models":{
+    
+  }
+}
+]]></content>
+  <tabTrigger>apiResource</tabTrigger>
+  <scope>source.json</scope>
+</snippet>

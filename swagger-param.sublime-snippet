@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+{
+  "name":"${1:paramName}",
+  "description":"${2:description}",
+  "paramType":"${3:paramType [path|query|body]}",
+  "required":true,
+  "allowMultiple":false,
+  "dataType":"${4:dataType [string|int|double|boolean|Date|List|Set|Array]}"
+}
+]]></content>
+  <tabTrigger>apiParam</tabTrigger>
+  <scope>source.json</scope>
+</snippet>

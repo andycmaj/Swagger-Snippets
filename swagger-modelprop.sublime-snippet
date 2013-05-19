@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+"${1:property}":{
+  "type":"${2:type [string|boolean|int|double|List|Set|Array]}",
+  "description":"${3:description}"
+}${4}
+]]></content>
+  <tabTrigger>apiModelProperty</tabTrigger>
+  <scope>source.json</scope>
+</snippet>

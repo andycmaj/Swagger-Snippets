@@ -1,0 +1,41 @@
+<snippet>
+  <content><![CDATA[
+{
+  "httpMethod":"${1:httpMethod}",
+  "summary":"${2:summary}",
+  "notes":"${3:notes}",
+  "responseClass":"${4:responseModel}",
+  "nickname":"${5:nickname}",
+  "parameters":[
+    {
+      "name":"...",
+      "description":"...",
+      "paramType":"[path|query|body]",
+      "required":true,
+      "allowMultiple":false,
+      "dataType":"string",
+      "allowableValues": {
+        "valueType":"LIST",
+        "values":["..."]
+      }
+    }
+  ],
+  "errorResponses":[
+    {
+      "code":400,
+      "reason":"Invalid request params"
+    },
+    {
+      "code":401,
+      "reason":"Caller is not authenticated"
+    },
+    {
+      "code":404,
+      "reason":"Resource not found"
+    }
+  ]
+}
+]]></content>
+  <tabTrigger>apiOp</tabTrigger>
+  <scope>source.json</scope>
+</snippet>
